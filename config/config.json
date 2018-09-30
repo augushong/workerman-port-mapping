@@ -1,0 +1,16 @@
+{
+    "server_ip":"47.88.58.78",
+    "server_port":7878,
+    "local_ip":"127.0.0.1",
+    "local_port":80,
+    "channel_port":2206,
+    "name":"channel.augushong.com",
+    "password":"asd",
+    "nat_list":[
+        {
+            "server_port":888,
+            "local_port":80,
+            "name":"http"
+        }
+    ]
+}

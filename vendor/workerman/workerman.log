@@ -354,3 +354,18 @@ Stack trace:
 #10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
 #11 {main}
 2018-09-30 03:31:21 pid:1 Worker process terminated
+2018-09-30 06:41:42 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:85
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(24): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 06:41:42 pid:1 Worker process terminated
