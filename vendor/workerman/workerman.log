@@ -1,0 +1,356 @@
+2018-09-30 01:41:41 pid:1 Error: Class 'AsyncTcpConnection' not found in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:14
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(61): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 01:41:41 pid:1 Worker process terminated
+2018-09-30 01:47:00 pid:1 Error: Class 'AsyncTcpConnection' not found in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:14
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(61): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 01:47:00 pid:1 Worker process terminated
+2018-09-30 01:47:37 pid:1 Error: Class 'AsyncTcpConnection' not found in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:14
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(61): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 01:47:37 pid:1 Worker process terminated
+2018-09-30 02:16:44 pid:1 Error: Call to undefined function dump() in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:60
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(69): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 02:16:44 pid:1 Worker process terminated
+2018-09-30 03:08:46 pid:1 Error: Call to a member function send() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:61
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:08:46 pid:1 Worker process terminated
+2018-09-30 03:09:23 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:67
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(74): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:09:23 pid:1 Worker process terminated
+2018-09-30 03:10:31 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:65
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:10:31 pid:1 Worker process terminated
+2018-09-30 03:11:47 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:64
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(71): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:11:47 pid:1 Worker process terminated
+2018-09-30 03:12:00 pid:1 Error: Call to a member function send() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:60
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(71): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:12:00 pid:1 Worker process terminated
+2018-09-30 03:12:39 pid:1 Error: Call to undefined function dump() in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:39
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(668): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(71): Workerman\Worker::runAll()
+#9 {main}
+2018-09-30 03:12:40 pid:1 Worker process terminated
+2018-09-30 03:15:30 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:65
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:15:30 pid:1 Worker process terminated
+2018-09-30 03:15:35 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:56
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:15:35 pid:1 Worker process terminated
+2018-09-30 03:25:03 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:56
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:25:03 pid:1 Worker process terminated
+2018-09-30 03:26:14 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:56
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:26:14 pid:1 Worker process terminated
+2018-09-30 03:27:14 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:14 pid:1 Worker process terminated
+2018-09-30 03:27:41 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:41 pid:1 Worker process terminated
+2018-09-30 03:27:47 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:47 pid:1 Worker process terminated
+2018-09-30 03:27:57 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:57 pid:1 Worker process terminated
+2018-09-30 03:28:37 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:28:37 pid:1 Worker process terminated
+2018-09-30 03:29:06 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:29:06 pid:1 Worker process terminated
+2018-09-30 03:29:28 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:29:28 pid:1 Worker process terminated
+2018-09-30 03:30:35 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:30:35 pid:1 Worker process terminated
+2018-09-30 03:31:05 pid:1 Error: Call to undefined function dump() in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:38
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(668): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#9 {main}
+2018-09-30 03:31:05 pid:1 Worker process terminated
+2018-09-30 03:31:21 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:31:21 pid:1 Worker process terminated
