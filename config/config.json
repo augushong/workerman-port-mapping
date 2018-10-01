@@ -11,6 +11,11 @@
             "server_port":888,
             "local_port":80,
             "name":"http"
+        },
+        {
+            "server_port":8188,
+            "local_port":810,
+            "name":"http"
         }
     ]
 }

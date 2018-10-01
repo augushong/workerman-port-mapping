@@ -1,34 +1,17 @@
 <?php
-require_once __DIR__.'/vendor/autoload.php';
-require_once __DIR__.'/common.php';
-
-use Workerman\Worker;
-use \Workerman\Connection\AsyncTcpConnection;
-
-
-try{
-    $config = get_config();
-}catch(\Exception $e){
-    echo "error:{$e}\n";
-}
-
-if(isset($config['nat_list']) && is_win()){
-    foreach ($config['nat_list'] as $n_key => $n_value) {
-        $unique_key = $n_key;
-        $nat_client_list['nat_client_worker_'.$n_key] = build_client_woker($n_value);
-    }
-}else{
-    $worker = build_client_woker($config);
-}
-
-Worker::runAll();
-
-
-function build_client_woker($config){
     
-$inside_worker = new Worker();
+    require_once __DIR__.'/../vendor/autoload.php';
+    require_once __DIR__.'/../common.php';
 
-$inside_worker->onWorkerStart = function() use ($inside_worker,$config){
+    use Workerman\Worker;
+    use \Workerman\Connection\AsyncTcpConnection;
+
+    $config = json_decode('{"server_port":8188,"local_port":810,"name":"http","local_ip":"127.0.0.1","password":"phpnb","channel_port":2206,"server_ip":"47.88.58.78"}',true);
+
+
+    $inside_worker = new Worker();
+
+    $inside_worker->onWorkerStart = function() use ($inside_worker,$config){
 
     // Channel客户端连接到Channel服务端
     Channel\Client::connect($config['server_ip'], $config['channel_port']);
@@ -84,7 +67,7 @@ $inside_worker->onWorkerStart = function() use ($inside_worker,$config){
     Channel\Client::on('cs_close'.$config['local_ip'].":".$config['local_port'],function($event_data)use($inside_worker){
         $inside_worker->connections[$event_data['connection']['c_connection_id']]->close();
     });
-};
 
+    };
 
-}
+    Worker::runAll();

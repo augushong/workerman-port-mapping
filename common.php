@@ -74,7 +74,7 @@ function check_config($config){
 
 
     // 是否设置多个服务
-    if(isset($config['nat_list']) && !is_win()){
+    if(isset($config['nat_list'])){
 
         foreach ($config['nat_list'] as $c_key => $c_value) {
             
