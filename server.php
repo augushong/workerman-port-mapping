@@ -39,7 +39,9 @@ function build_server_woker($config){
         });
 
         Channel\Client::on('sc_close'.$config['local_ip'].":".$config['local_port'],function($event_data) use ($outside_worker){
-            $outside_worker->connections[$event_data['connection']['c_connection_id']]->close();
+            if($outside_worker->connections[$event_data['connection']['c_connection_id']]){
+                $outside_worker->connections[$event_data['connection']['c_connection_id']]->close();
+            }
         });
 
         Channel\Client::on('sc_connect'.$config['local_ip'].":".$config['local_port'],function($event_data) use($outside_worker){

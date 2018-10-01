@@ -1,4 +1,28 @@
 {
+    "name": "workerman-port-mapping",
+    "description": "使用workerman实现的端口映射程序,支持内网穿透,支持win多端口映射.",
+    "type": "porject",
+    "keywords": [
+        "workerman",
+        "nat",
+        "port",
+        "mapping",
+        "port-mapping",
+        "port mapping"
+    ],
+    "homepage": "https://gitee.com/augushong/workerman-port-mapping",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "augushong",
+            "email": "augushong@163.com",
+            "homepage": "https://gitee.com/augushong",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://gitee.com/augushong/workerman-port-mapping"
+    },
     "require": {
         "workerman/workerman": "^3.5",
         "workerman/channel": "^1.0"

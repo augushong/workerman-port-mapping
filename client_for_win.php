@@ -87,7 +87,9 @@ function build_client_woker($config){
         $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($event_data['data']);
     });
     Channel\Client::on('cs_close'.$config['local_ip'].":".$config['local_port'],function($event_data)use($inside_worker){
-        $inside_worker->connections[$event_data['connection']['c_connection_id']]->close();
+        if($inside_worker->connections[$event_data['connection']['c_connection_id']]){
+            $inside_worker->connections[$event_data['connection']['c_connection_id']]->close();
+        }
     });
 
     };
